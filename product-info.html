@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Karmen - webshop">
+        <meta name="keywords" content="shop, web, page, karmen, cart, items,
+            story, cheap, webshop, easy">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mere info</title>
+        <link rel="stylesheet" href="styles/product-info.css">
+        <script src="https://kit.fontawesome.com/9b9822eb3f.js"
+            crossorigin="anonymous">
+        </script>
+        <script defer src="/scripts/dropdown.js"></script>
+        <script defer src="/scripts/gallery.js"></script>
+    </head>
+    <body>
+        <article id="wrapper">
+
+            <!--take-me-to-top-->
+            <a class="a" href="#">
+                <div class="border">
+                    <span>&nbsp;</span>
+                </div>
+            </a>
+
+
+            <header>
+                <nav role="navigation">
+                    <ul class="navbar">
+                        <li class="navbar__item--first">
+                            <a href="index.html"><img
+                                    src="images/logos/karmen-nav-logo.png"
+                                    alt="brand logo"
+
+                                    />
+                            </a>
+                        </li>
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a class="active" href="product.html">Produkter</a></li>
+                        <li class="dropdown">Mere info
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a
+                                        href="#"
+                                        target="_blank">Kontakt</a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        target="_blank">Om os</a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        target="_blank">FAQ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa-solid fa-cart-plus"></i>
+                                Kurv</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <main>
+
+
+
+                <article class="productinfo">
+
+                    <div class="productinfo__container">
+
+                        <div class="gallery-grid">
+
+                            <div class="slider-grid">
+                                <div class="slider">
+
+                                    <img class="slide slide--active"
+                                        src="/images/product-fotos/plante.png"
+                                        alt="lacerat. Donec enim turpis,">
+                                    <!-- slide one ends -->
+                                    <img class="slide"
+                                        src="/images/product-fotos/staffeli.png"
+                                        alt="lacerat. Donec enim turpis,">
+                                    <!-- slide two ends -->
+                                    <img class="slide"
+                                        src="/images/product-fotos/kurv.png"
+                                        alt=" venenatis laoreet">
+                                    <!-- slide tree ends -->
+
+                                </div>
+                                <!-- slider arrows -->
+                                <div id="back"><i class="fa-solid
+                                        fa-arrow-left"></i></div>
+                                <div id="next"><i class="fa-solid
+                                        fa-arrow-right"></i></div>
+
+                            </div>
+
+                            <!-- slider-grid END -->
+
+                        </div>
+                        <!-- gallery-grid END -->
+
+                    </div>
+
+                    <div class="productinfo__item">
+                        <h1 class="productinfo__heading">
+                            Sukkulent
+                        </h1>
+                        <p class="productinfo__text">Det er fantastisk med
+                            grønne planter, der både er
+                            yndige og nemme at holde - og det er lige præcis
+                            tilfældet
+                            med sukkulenter. Den hårdføre plante kommer i
+                            tusindvis
+                            af forskellige sorter, hvoraf de mest almindelige
+                            slags,
+                            som rosetblomst, stenurt, paradistræ, husløg og
+                            diverse
+                            kaktus, fortsat dukker op i flere og flere
+                            vindueskarme
+                            herhjemme. Sukkulenten er nemlig ideel som
+                            stueplante,
+                            fordi den stortrives i den tørre, varme luft i vores
+                            bolig.
+                        </p>
+                        <div class="productinfo__certificate">
+                            <img src="/images/logos/cert-icon.png"
+                                alt="certificate">
+                        </div>
+                        <a class="productinfo__button"
+                            href="/cart.html">Læg i kurven</a>
+                    </div>
+
+
+                </article>
+
+
+                <section class="moreinfo">
+
+                    <h2 class="moreinfo__heading">
+                        Info på vores
+                        <span class="moreinfoheading__grey-bg">Fairtrade
+                            blomster</span></h2>
+
+
+                              <div class="skill">
+                                    <p>HTML5</p>
+                                    <div class="skill-bar skill1">
+                                      <span class="skill-count1">95%</span>
+                                    </div>
+                                  </div>
+                                  <div class="skill">
+                                    <p>CSS3</p>
+                                    <div class="skill-bar skill2">
+                                      <span class="skill-count2">85%</span>
+                                    </div>
+                                  </div>
+                                  <div class="skill">
+                                    <p>JQUERY</p>
+                                    <div class="skill-bar skill3">
+                                      <span class="skill-count3">75%</span>
+                                    </div>
+                                </div>
+
+                </section>
+
+
+
+
+            </main>
+
+
+
+            <footer>
+
+
+                <h4 class="footer__heading">Tilmeld dig vores nyhedsbrev</h4>
+                <form id="form-tilmelding" class="newsletter"
+                    action="./mail-confirmation.html"
+                    method="post">
+                    <label class="newsletter__label" for="email"><i
+                            class="fa-solid fa-envelope"></i></label>
+                    <input class="newsletter__input" type="email" required
+                        placeholder="Din Email" id="email"
+                        name="email">
+
+                    <button form="form-tilmelding" class="newsletter__submit
+                        newsletter__button" type="submit">Abonner</button>
+                    <p id="besked"></p>
+                </form>
+
+
+                <nav class="footer">
+                    <ul class="footer__nav">
+                        <li class="footer__nav__item--first">
+                            <a href="index.html"><img
+                                    src="images/logos/karmen-footer-logo.png"
+                                    alt="brand logo"
+
+                                    />
+                            </a>
+                        </li>
+                        <li><a class="active" href="index.html">Forside</a></li>
+                        <li><a href="#">Produkter</a></li>
+                        <li><a href="#">Mere info</a></li>
+                        <li><a href="#"><i class="fa-solid fa-cart-plus"></i>
+                                Kurv</a></li>
+                    </ul>
+                </nav>
+
+
+
+            </footer>
+
+
+
+            </footer>
+
+
+        </div>
+    </body>
+</html>

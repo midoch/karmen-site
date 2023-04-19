@@ -1,0 +1,245 @@
+@import url("./main.css");
+
+
+
+.productinfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.875em;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10em;
+    margin-top: 5em;
+}
+
+
+.productinfo-button {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+
+.productinfo__item {
+    margin-bottom: 1em;
+    background-color: #F5F7F9;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding: 3em;
+    width: 570px;
+}
+
+.productinfo__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.productinfo__pink-bg {
+    background-color: #FFE9E9;
+    text-align: center;
+    padding: 8em;
+    border-radius: 5px;
+}
+
+.productinfo__button {
+    background: linear-gradient(200.82deg, #FFE9E9 27.89%, #F9C4D2 83.86%) !important;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    transition: .3s;
+    text-decoration: none;
+    display: block;
+    line-height: 55px;
+    color: black;
+    font-size: 16px;
+    max-width: 170px;
+    margin-left: 10em;
+    text-align: center;
+}
+
+.productinfo__heading {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: .5em;
+}
+
+.productinfo__text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.productinfo__certificate {
+    width: 70px;
+    height: 84px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+
+
+
+
+
+/* Gallery */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 1em;
+    align-items: center;
+}
+
+.slider-grid {
+    width: 570px;
+    height: 570px;
+    background-color: #FFE9E9;
+    border-radius: 5px;
+}
+
+.slider {
+    width: 100%;
+    grid-area: 1/1/2/-1;
+    overflow: hidden;
+    order: 1;
+}
+
+.slide {
+    display: none;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.slide--active {
+    display: block;
+    order: 2;
+}
+
+
+
+#next,
+#back {
+    grid-area: 1/1/2/-1;
+    font-size: 2em;
+    margin: 0.5em;
+    cursor: pointer;
+    color: #92D5F6;
+    order: 3;
+}
+
+
+#next {
+    justify-self: end;
+}
+
+#back {
+    justify-self: start;
+}
+
+/* Gallery END */
+
+
+
+
+/*MORE INFO*/
+
+.moreinfo {
+    margin-bottom: 20em;
+}
+
+.moreinfo__heading {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.moreinfoheading__grey-bg {
+    color: #24282A;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+
+
+/*PROGRESSBAR*/
+
+
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.skill>p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+}
+
+.skill:before {
+    width: 100%;
+    height: 10px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background: #f4392f;
+    display: block;
+    position: relative;
+}
+
+.skill-bar span {
+    position: absolute;
+    border-top: 5px solid #f4392f;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+
+.skill-bar {
+    position: relative;
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+.skill1 {
+    width: 95%;
+}
+
+.skill2 {
+    width: 85%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+
+.skill3 {
+    width: 75%;
+}
+
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* End Progress bar CSS */
